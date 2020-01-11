@@ -4,7 +4,7 @@ from os import listdir, scandir
 
 SITENAME = {
     'full': 'Воронежская весенняя математическая школа',
-    'short' : 'ВВМШ'
+    'short': 'ВВМШ'
 }
 SITEURL = 'vvmsh.math-vsu.ru'
 
