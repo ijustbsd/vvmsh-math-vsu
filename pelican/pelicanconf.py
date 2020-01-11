@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- #
 import csv
-from os import listdir
+from os import listdir, scandir
 
 SITENAME = {
     'full': 'Воронежская весенняя математическая школа',
@@ -23,9 +23,8 @@ PAGE_ORDER_BY = 'order'
 
 STATIC_PATHS = ['files', 'albums']
 
-PHOTOS = []
-for year in listdir('content/albums'):
-    PHOTOS.append((year, listdir('content/albums/' + year)))
+PHOTOS = [(x.name, listdir('content/albums/' + x.name))
+          for x in scandir('content/albums') if x.is_dir()]
 
 PARTICIPANTS = []
 with open('participants.csv', encoding="utf-8") as csvfile:
