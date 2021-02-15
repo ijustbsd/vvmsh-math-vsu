@@ -8,7 +8,6 @@ SITENAME = {
 }
 SITEURL = 'vvmsh.math-vsu.ru'
 
-AUTHOR = 'ijustbsd@gmail.com'
 DESCRIPTION = 'Воронежская весенняя математическая школа «Понтрягинские чтения – XXXII»'
 KEYWORDS = 'Воронежская весенняя математическая школа, ВВМШ'
 YEAR = '2021'
