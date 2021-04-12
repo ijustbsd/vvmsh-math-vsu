@@ -9,3 +9,5 @@ services:
     environment:
       - "GDRIVE_DOCUMENT_ID=${GDRIVE_DOCUMENT_ID}"
       - "GDRIVE_SHEET_ID=${GDRIVE_SHEET_ID}"
+      - "LIST_ADDRESS=${LIST_ADDRESS}"
+      - "MAILGUN_API_KEY=${MAILGUN_API_KEY}"
