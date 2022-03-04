@@ -1,6 +1,10 @@
 name: Pelican CI
 
-on: [push, pull_request, repository_dispatch, workflow_dispatch]
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
 
 jobs:
 
