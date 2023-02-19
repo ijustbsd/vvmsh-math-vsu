@@ -1,5 +1,6 @@
 Title: Оргкомитет
 Order: 3
+Status: hidden
 
 **<center>Организаторы:</center>**
 *<center>Воронежский Государственный Университет</center>*

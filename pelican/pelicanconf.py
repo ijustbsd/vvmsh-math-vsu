@@ -10,9 +10,12 @@ SITEURL = 'vvmsh.math-vsu.ru'
 
 DESCRIPTION = 'Воронежская весенняя математическая школа «Понтрягинские чтения – XXXIII»'
 KEYWORDS = 'Воронежская весенняя математическая школа, ВВМШ'
-YEAR = '2022'
+YEAR = '2023'
 
 THEME = 'theme'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["participants_list"]
 
 SLUGIFY_SOURCE = 'basename'
 PAGE_URL = '{slug}'
@@ -20,15 +23,7 @@ PAGE_SAVE_AS = '{slug}.html'
 
 PAGE_ORDER_BY = 'order'
 
-STATIC_PATHS = ['files', 'albums']
-
-PHOTOS = [(x.name, listdir('content/albums/' + x.name))
-          for x in scandir('content/albums') if x.is_dir()]
-
-PARTICIPANTS = []
-with open('participants.csv', encoding="utf-8") as csvfile:
-    reader = csv.reader(csvfile)
-    PARTICIPANTS = enumerate(tuple(reader), 1)
+STATIC_PATHS = ['files']
 
 # Disable generations some files
 ARCHIVES_SAVE_AS = None
