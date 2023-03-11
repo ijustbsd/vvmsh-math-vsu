@@ -28,7 +28,7 @@ def format_csv(csv_in, csv_out):
         next(reader)
         for row in reader:
             # фамилия, имя, отчество, город, тема доклада
-            result.append([row[1], row[2], row[3], row[4], row[10]])
+            result.append([row[1], row[2], row[3], row[4], row[11]])
     # форматируем каждый столбец в строке
     result = [tuple(map(_str_formatter, x)) for x in result]
     # убираем дубликаты
