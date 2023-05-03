@@ -1,5 +1,5 @@
 Title: Правила оформления
-Order: 1
+Order: 2
 Parent: information
 ShowTitle: 0
 

@@ -1,5 +1,5 @@
 Title: Зарегистрированные участники
-Order: 3
+Order: 4
 Parent: information
 Template: list
 <!-- Status: hidden -->
