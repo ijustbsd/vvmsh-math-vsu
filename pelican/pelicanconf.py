@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*- #
-import csv
-from os import listdir, scandir
 
 SITENAME = {
     'full': 'Воронежская весенняя математическая школа',
@@ -10,7 +8,7 @@ SITEURL = 'vvmsh.math-vsu.ru'
 
 DESCRIPTION = 'Воронежская весенняя математическая школа «Понтрягинские чтения – XXXIII»'
 KEYWORDS = 'Воронежская весенняя математическая школа, ВВМШ'
-YEAR = '2023'
+YEAR = '2024'
 
 THEME = 'theme'
 
